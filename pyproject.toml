@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "polaritonic-index"
+version = "0.1.0"
+description = "Polaritonic Index (PI) is a computational tool designed to analyze and classify excitations in hybrid systems composed of a metal nanoparticle and one or more molecules. By examining transition density file, PI can differentiate between metal, molecular and 'hybrid' excitations (these could be polaritonic or charge transfer excitations)."
+authors = [
+    "Lucia Cascino <lucia.cascino@unisalento.it>",
+    "Roberto Messina <roberto.messina@unisalento.it>",
+    "Stefano Corni <stefano.corni@unipd.it>",
+    "Stefania D'Agostino <stefania.dagostino@nanotec.cnr.it>",
+]
+maintainers = [
+    "Lucia Cascino <lucia.cascino@unisalento.it>",
+    "Roberto Messina <roberto.messina@unisalento.it>",
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "<3.13,>=3.9.6"
+rich-click = "^1.8.4"
+scikit-learn = "^1.5.2"
+matplotlib = "^3.9.2"
+pymatgen = "^2024.8.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+ground_state_analysis = "polaritonic_index.main_groundstate:action"
+excited_state_analysis = "polaritonic_index.main_TDDFT:action"
