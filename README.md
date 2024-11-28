@@ -1,4 +1,6 @@
 # **User manual: Polaritonic Index**
+[![DOI](https://zenodo.org/badge/895511493.svg)](https://doi.org/10.5281/zenodo.14236665)
+
 
 ## **TOC**
 * [Theoretical background](#theory)
