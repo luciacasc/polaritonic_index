@@ -83,7 +83,9 @@ The polaritonic index is then computed according to *Equation 1*.
 
 ## Installation <a name="installation"></a>
 
+**WARNING**: Installing via pip from PyPI might not work as expected. You may need to manually install the dependencies (matplotlib, pygenmat, rich-click, and threadpoolctl). However, installation directly from the Git repository functions correctly.
 ### System requirements <a name="requirements"></a>
+
 The software requirements to run the application are:
 - Python $\ge$ 3.9.6 and $\le$ 3.13
 - Required libraries: `rich_click`, `numpy`, `pandas`, `matplotlib`, `scikit-learn`.
