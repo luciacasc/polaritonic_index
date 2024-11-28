@@ -26,11 +26,8 @@ PI employs a novel algorithm to analyze the nature of excitations in these hybri
 
 The PI is calculated as follows:
 
-$
-PI( \omega_k)  = \frac{\Delta  \rho_{mol} }{\Delta \rho_{cluster} } = 
-\frac{2^{3/2} \frac{\sum_{I =1}^{Q_{mol}} \sum_{i = 1}^{N} e^{-\left [ \frac{(\vec{r_i} - \vec{R}_I)^2}{ 2 \sigma_i ^2} \right ] } \left| \Delta \rho (\vec{r_i}, \omega_k)\right|}{\sum_{j}^{Q_{mol}} Z_j \cdot N_j }}
-    {2^{3/2} \frac{\sum_{J =1}^{Q_{cluster}} \sum_{i = 1}^{N} e^{-\left [ \frac{(\vec{r_i} - \vec{R}_j)^2}{ 2 \sigma_j ^2} \right ] } \left| \Delta \rho (\vec{r_i}, \omega_k)\right|}{\sum_{j}^{Q_{cluster}} Z_j \cdot N_j }}  
-$
+<img src="https://latex.codecogs.com/png.image?\LARGE&space;\dpi{100}\bg{white}PI(\omega_k)=\frac{\Delta\rho_{mol}}{\Delta\rho_{cluster}}=\frac{2^{3/2}\frac{\sum_{I=1}^{Q_{mol}}\sum_{i=1}^{N}e^{-\left[\frac{(\vec{r_i}-\vec{R}I)^2}{2\sigma_i^2}\right]}\left|\Delta\rho(\vec{r_i},\omega_k)\right|}{\sum{j}^{Q_{mol}}Z_j\cdot&space;N_j}}{2^{3/2}\frac{\sum_{J=1}^{Q_{cluster}}\sum_{i=1}^{N}e^{-\left[\frac{(\vec{r_i}-\vec{R}j)^2}{2\sigma_j^2}\right]}\left|\Delta\rho(\vec{r_i},\omega_k)\right|}{\sum{j}^{Q_{cluster}}Z_j\cdot&space;N_j}}" title="PI(\omega_k)=\frac{\Delta\rho_{mol}}{\Delta\rho_{cluster}}=\frac{2^{3/2}\frac{\sum_{I=1}^{Q_{mol}}\sum_{i=1}^{N}e^{-\left[\frac{(\vec{r_i}-\vec{R}I)^2}{2\sigma_i^2}\right]}\left|\Delta\rho(\vec{r_i},\omega_k)\right|}{\sum{j}^{Q_{mol}}Z_j\cdot N_j}}{2^{3/2}\frac{\sum_{J=1}^{Q_{cluster}}\sum_{i=1}^{N}e^{-\left[\frac{(\vec{r_i}-\vec{R}j)^2}{2\sigma_j^2}\right]}\left|\Delta\rho(\vec{r_i},\omega_k)\right|}{\sum{j}^{Q_{cluster}}Z_j\cdot N_j}}" />
+
 
 where:
 
@@ -39,7 +36,7 @@ where:
 - The index I runs from 1 to the number of atoms belonging at the molecule ($Q_{mol}$),
 instead the index i runs over the grid points (from 1 to n).
 - $2^{3/2}$ is the normalization term of the gaussian.
-- $\vec{r}_{i}$ indicates a grid point, $\vec{R}_{I}$ is the position of the atom.
+- <img src="https://latex.codecogs.com/png.image?\LARGE&space;\dpi{70}\bg{white}\vec{r}_{i}" title="\vec{r}_{i}" /> indicates a grid point, <img src="https://latex.codecogs.com/png.image?\LARGE&space;\dpi{70}\bg{white}\vec{R}_{I}" title="\vec{R}_{I}" /> is the position of the atom.
 - $\sigma_i = w_i \cdot rad $, is the standard deviation, determined by multiplying a weight factor  with a radius. The radius, which can be covalent, van der Waals, or atomic, defines the spatial spread of the charge distribution.
 
 In general, a higher PI value indicates a stronger molecular character, while a lower value suggests a metallic character.
