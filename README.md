@@ -18,7 +18,7 @@
 
 ## **Theoretical background** <a name="theory"></a>
 
-**Polaritonic Index (PI)** is a computational tool designed to analyze and classify excitations in hybrid systems composed of a metal nanoparticle and one or more molecules. By examining transition density file, PI can differentiate between metal, molecular and "hybrid" excitations (these could be polaritonic or charge transfer excitations).
+**Polaritonic Index (PI)** is a computational tool designed to analyze and classify excitations in hybrid systems composed of a metal nanoparticle and one or more molecules. By examining transition density file, PI can differentiate between metal, molecular and "hybrid" excitations (polaritonic or charge transfer excitations).
 
 **Excitation Analysis**
 
