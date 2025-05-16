@@ -421,5 +421,8 @@ excited_state_analysis -f transition_density.cube -m 1 -m 21 -p
 ## **References** <a name="ref"></a>
 
 - Cascino L., Corni S., and D’Agostino S., **"Revealing the interplay between hybrid and charge-transfer states in polariton chemistry"**, The Journal of Physical Chemistry C 128.7 (2024): 2917-2927.
+- Le Bahers, Tangui, Carlo Adamo, and Ilaria Ciofini. **"A qualitative index of spatial extent in charge-transfer excitations"**, Journal of Chemical Theory and Computation 7.8 (2011): 2498-2506.
+
+
 
 ---
